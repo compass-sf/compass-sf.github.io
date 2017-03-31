@@ -39,7 +39,17 @@ div.kimbiaDiv.two_col label {
   margin-top: 0.55rem;
 }
 
-div.kimbiaDiv input.k_number.k_required, div.kimbiaDiv input.k_text.k_required, div.kimbiaDiv input.k_money.k_required, div.kimbiaDiv textarea.k_textarea.k_required {
+div#kimbiaView_1_MailingAddress|country div.kimbiaDiv.two_col label,
+div#kimbiaView_1_MailingAddress|state div.kimbiaDiv.two_col label,
+div#kimbiaView_1__payment_monthExpires div.kimbiaDiv.two_col label,
+div#kimbiaView_1__payment_yearExpires div.kimbiaDiv.two_col label {
+  margin-top: 0.25rem;
+}
+
+div.kimbiaDiv input.k_number.k_required,
+div.kimbiaDiv input.k_text.k_required,
+div.kimbiaDiv input.k_money.k_required,
+div.kimbiaDiv textarea.k_textarea.k_required {
   border-color: #c3c3c3;
 }
 
