@@ -18,11 +18,25 @@ div.kimbiaDiv span.fieldCaption {
   margin-bottom: 0;
 }
 
-div.kimbiaDiv input.k_number, div.kimbiaDiv input.k_text, div.kimbiaDiv input.k_money, div.kimbiaDiv textarea.k_textarea {
+div.kimbiaDiv input.k_number,
+div.kimbiaDiv input.k_text,
+div.kimbiaDiv input.k_money,
+div.kimbiaDiv textarea.k_textarea {
   background-color: #e2e5e5;
   border: none;
   border-radius: 0.1rem;
   padding: 0.5rem;
+}
+
+div.kimbiaDiv.two_col input.k_number,
+div.kimbiaDiv.two_col input.k_text,
+div.kimbiaDiv.two_col input.k_money,
+div.kimbiaDiv.two_col select.k_select {
+  margin-bottom: 0;
+}
+
+div.kimbiaDiv.two_col label {
+  margin-top: 0.55rem;
 }
 
 div.kimbiaDiv input.k_number.k_required, div.kimbiaDiv input.k_text.k_required, div.kimbiaDiv input.k_money.k_required, div.kimbiaDiv textarea.k_textarea.k_required {
@@ -40,11 +54,15 @@ div.kimbiaDiv div.k_shareThisFormBlock {
   display: none;
 }
 
-label.groupLabel.section,
+label.groupLabel.section.k_payment,
 label.groupLabel.section.k_question,
 label.groupLabel.section.k_profileSection,
 label.groupLabel.section.k_askArrayMain.k_donation {
   padding-left: 0.6rem;
+}
+
+div.inputGroup span.fieldCaption span.k_messages {
+  display: none !important;
 }
 
 .errDiv ul {
