@@ -9,7 +9,7 @@ div.kimbiaDiv div.inputGroup, div.kimbiaDiv div.inputGroup.k_rbGroup {
   margin-left: 0;
 }
 
-div.kimbiaDiv.two_col label.k_paymentPlanTitle {
+div.kimbiaDiv label.k_paymentPlanTitle {
   padding-bottom: 0.2em;
   font-weight: bold;
 }
@@ -28,21 +28,21 @@ div.kimbiaDiv textarea.k_textarea {
   padding: 0.5rem;
 }
 
-div.kimbiaDiv.two_col input.k_number,
-div.kimbiaDiv.two_col input.k_text,
-div.kimbiaDiv.two_col input.k_money,
-div.kimbiaDiv.two_col select.k_select {
+div.kimbiaDiv input.k_number,
+div.kimbiaDiv input.k_text,
+div.kimbiaDiv input.k_money,
+div.kimbiaDiv select.k_select {
   margin-bottom: 0;
 }
 
-div.kimbiaDiv.two_col label {
+div.kimbiaDiv label {
   margin-top: 0.55rem;
 }
 
-div#kimbiaView_1_MailingAddress|country div.kimbiaDiv.two_col label,
-div#kimbiaView_1_MailingAddress|state div.kimbiaDiv.two_col label,
-div#kimbiaView_1__payment_monthExpires div.kimbiaDiv.two_col label,
-div#kimbiaView_1__payment_yearExpires div.kimbiaDiv.two_col label {
+div.kimbiaDiv div#kimbiaView_1_MailingAddress|country label,
+div.kimbiaDiv div#kimbiaView_1_MailingAddress|state label,
+div.kimbiaDiv div#kimbiaView_1__payment_monthExpires label,
+div.kimbiaDiv div#kimbiaView_1__payment_yearExpires label {
   margin-top: 0.25rem;
 }
 
