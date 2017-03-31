@@ -9,7 +9,7 @@ div.kimbiaDiv div.inputGroup, div.kimbiaDiv div.inputGroup.k_rbGroup {
   margin-left: 0;
 }
 
-div.kimbiaDiv label.k_paymentPlanTitle {
+div.kimbiaDiv.two_col label.k_paymentPlanTitle {
   padding-bottom: 0.2em;
   font-weight: bold;
 }
@@ -28,21 +28,21 @@ div.kimbiaDiv textarea.k_textarea {
   padding: 0.5rem;
 }
 
-div.kimbiaDiv input.k_number,
-div.kimbiaDiv input.k_text,
-div.kimbiaDiv input.k_money,
-div.kimbiaDiv select.k_select {
+div.kimbiaDiv.two_col input.k_number,
+div.kimbiaDiv.two_col input.k_text,
+div.kimbiaDiv.two_col input.k_money,
+div.kimbiaDiv.two_col select.k_select {
   margin-bottom: 0;
 }
 
-div.kimbiaDiv label {
+div.kimbiaDiv.two_col label {
   margin-top: 0.55rem;
 }
 
-div.kimbiaDiv div#kimbiaView_1_MailingAddress|country label,
-div.kimbiaDiv div#kimbiaView_1_MailingAddress|state label,
-div.kimbiaDiv div#kimbiaView_1__payment_monthExpires label,
-div.kimbiaDiv div#kimbiaView_1__payment_yearExpires label {
+div.kimbiaDiv.two_col div#kimbiaView_1_MailingAddress|country label,
+div.kimbiaDiv.two_col div#kimbiaView_1_MailingAddress|state label,
+div.kimbiaDiv.two_col div#kimbiaView_1__payment_monthExpires label,
+div.kimbiaDiv.two_col div#kimbiaView_1__payment_yearExpires label {
   margin-top: 0.25rem;
 }
 
@@ -73,11 +73,6 @@ label.groupLabel.section.k_askArrayMain.k_donation {
 
 div.inputGroup span.fieldCaption span.k_messages {
   display: none !important;
-}
-
-div.inputGroup span.fieldCaption span.k_messages#msg__payment.verification_1,
-div.inputGroup span.fieldCaption span.k_messages#msg__payment.accountNumber_1 {
-  display: block !important;
 }
 
 .errDiv ul {
