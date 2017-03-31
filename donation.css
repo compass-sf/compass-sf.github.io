@@ -75,6 +75,11 @@ div.inputGroup span.fieldCaption span.k_messages {
   display: none !important;
 }
 
+div.inputGroup span.fieldCaption span.k_messages#msg__payment.verification_1,
+div.inputGroup span.fieldCaption span.k_messages#msg__payment.accountNumber_1 {
+  display: block !important;
+}
+
 .errDiv ul {
   list-style: none;
   margin-left: 0;
